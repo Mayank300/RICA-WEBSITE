@@ -1,0 +1,14 @@
+.sell__screen {
+  display: block;
+  width: 90vw;
+  max-width: 900px;
+  margin-top: 24px;
+}
+
+.body {
+  height: 92vh;
+  display: inline-block;
+  width: 80vw;
+  overflow: auto;
+  /* border: 1px solid #000; */
+}

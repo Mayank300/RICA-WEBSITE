@@ -1,0 +1,101 @@
+.page__header {
+  display: flex;
+  width: 80vw;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.page__header__arrow__left {
+  border-right: 1px solid lightgrey;
+  margin-right: 20px;
+  height: 70px;
+}
+
+.header__user__name__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__user__name {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 18%;
+  margin-top: 10px;
+}
+
+.header__user {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 31%;
+}
+
+.header__icon__cart {
+  position: absolute;
+  right: 1.5%;
+  border-left: 2px solid lightgrey;
+  height: 70px;
+  margin-top: -35px;
+}
+
+.header__cart {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.header__icon__bell {
+  position: absolute;
+  right: 7%;
+  border-left: 2px solid lightgrey;
+  height: 70px;
+  margin-top: -35px;
+}
+
+.header__bell {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: 5%;
+  right: -15%;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(-45deg, #5a8ee8, #04befe);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.header__icon__settings {
+  position: absolute;
+  right: 12.5%;
+  border-left: 2px solid lightgrey;
+  height: 70px;
+  margin-top: -35px;
+}
+
+.header__settings {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 23px;
+}
